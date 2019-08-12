@@ -1,2 +1,2 @@
-# Clear_folder
-Clearing folder of all content to make sure that you are working with the correct files.
+Download the clear_local.bat file
+Edit the FOLDER PATH to the actual folder path. Example path: C:\Vault\Workspace
