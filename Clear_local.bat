@@ -18,8 +18,8 @@ PAUSE
 EXIT
 
 :yes
-echo Deleting files in C:\Vault Purac\Workspace
-set folder="C:\Vault Purac\Workspace"
+echo Deleting files in C:\Workspace
+set folder="C:\Workspace"
 cd /d %folder%
 for /F "delims=" %%i in ('dir /b') do (rmdir "%%i" /s/q || del "%%i" /s/q)
 echo Done!
